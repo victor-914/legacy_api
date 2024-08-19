@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "communities",
+  "info": {
+    "singularName": "community",
+    "pluralName": "communities",
+    "displayName": "community"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "enumeration",
+      "enum": [
+        "a10-15",
+        "a16-20",
+        "a20-25",
+        "a26-30",
+        "a31-above"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "location": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "string"
+    },
+    "social_handle": {
+      "type": "string"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "enumeration",
+      "enum": [
+        "daily",
+        "weekly",
+        "monthly",
+        "less than monthly"
+      ]
+    }
+  }
+}
